@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <style>
+       input{
+    display: none;
+}
+    </style>
+</head>
+<body>
+    <header>
+    
+       
+      
+        <nav >
+            <a href="index.html" class="logo"><span>Sepetiba Fit</span></a>
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+               </div>
+
+            <ul class="nav-list">
+                    
+                <li>
+                    <a href="sobre.html">Locais</a>
+                </li>
+
+                <li>
+                     <a href="produtos.html">Planos</a>
+                </li>
+
+                <li>
+                      <a href="nossa-equipe.html">Equipe</a>
+                </li>
+
+                <li>
+                      <a href="contato.html">contato</a>
+                </li>
+            </ul>
+
+            <a href="contato.html"><button class="btn matricula">Matricule-se</button></a>  
+        </nav>
+        
+    </header>
+
+    
+    
+    <div class="bannerbg">
+        <div class="introducao">
+            <div class="img_intro"> <img src="img/Conheça_a__1_-removebg-preview.png" alt=""></div>
+            
+
+        </div>
+    </div>
+
+    
+    
+<section class="sobre">
+    <div class="row">
+        <div class="fotosobre">
+            <img src="img/pexels-cesar-galeão-3253501.jpg" alt="">
+        </div>
+
+        <div class="conteudo">
+            <h1>Bem vindo a nossa Rede de Academia</h1> 
+            <p>Nas nossas unidade, você pode contar com os melhores profissionais e equipamentos de ultima geração para auxiliá-lo na busca pelo seu corpo idealizado. </p>
+            <p>Não se esqueça de visitar todas as paginas do nosso site e ficar por dentro de tudo que podemos te oferecer como a melhor academia do Rio de Janeiro!</p>
+            <button class="btn matricula"><a href="produtos.html">Planos</a></button>
+        </div>
+
+    </div>
+
+
+
+</section>
+
+
+<section class="sec_form_imc">  
+
+
+    <div class="conteudo_form2_imc">
+        <h1>Calculadora de IMC </h1>
+
+
+    <form id="form_imc">
+    <div> 
+        <input type="number" placeholder="Digite sua altura em CM (ex : 1.64)" class="inputs_imc required_imc altura" id="altura">
+        <span class="span-required_imc">Nome deve ter no minimo 3 caracteres.</span>
+
+    </div>
+    <div> 
+        <input type="number" placeholder="Digite o seu peso em KG (ex:63)" class="inputs_imc required_imc peso" id="peso">
+        <span class="span-required_imc">Seu telefone deve ter no minimo 8 digitos.</span>
+
+    </div>
+   
+   
+    <p>Sexo</p>
+    <div class="box-select_imc">
+        
+            <div>
+                <input type="radio" id="m" value="m" name="sexo">
+                <label for="m">Masculino</label>
+            </div>
+
+            <div>
+                <input type="radio" id="f" value="f" name="sexo">
+                <label for="f">Feminino</label>
+
+            </div>
+
+           
+    </div>
+    <button class="btn btn_imc" type="button" onclick="calculoImc()">Calcular</button>        
+</form>
+
+
+
+</div>
+<div class="plano_ideal">
+        
+    <h2 id="seu_imc">Descubra qual é o melhor plano para seu corpo!</h2>
+
+    
+        
+        <div class="planos_box">
+            
+            
+            
+            
+                <img src="img/logo só marca.png" alt="" id="fotoplano">
+            
+            
+                <h2 id="titulo_plano"></h2>
+            
+                <p class="texto" id="textoplan">Preencha a calculadora da forma correta e veja seu resultado</p>    
+
+                <P id="preco"></P>
+        
+
+       
+
+    </div>
+
+
+</div>
+</section> 
+
+
+<footer class="rodape">
+   
+
+<div class="redes">
+    
+    <div class="sociais">
+        <div class="social">
+            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+        </div>
+
+        <div class="social">
+            <a href="#">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+
+                    
+            </a>
+        </div>
+
+        <div class="social">
+            <a href="#">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+
+
+            </a>
+
+        </div>
+
+    </div>
+</div>
+
+<script src="script/mobile-navbar.js"></script>  
+</body>
+</html>
